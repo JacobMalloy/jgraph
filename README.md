@@ -13,7 +13,7 @@ Build just the program without producing the jpg's
 ## Video
 I wanted to play with using ffmpeg to make a video and the video I made can be found [here](https://youtu.be/gcawb_v6neg). I have also included a [video.sh](video.sh), but I really do not recommend running it. The script will spawn 3,125 spiro,jgraph, and convert processes. It will create a 5.1 Gb folder of the jpg's. The script took 1 minute 49 seconds to generate all of the pictures on my Ryzen 9 5950x machine. The `ffmpeg` portion took 1 minute 22 seconds. 
 ## Random
-When I finished writing the program, I had used one test case for all of my work, and then didn't know how to make interesting examples, so I wrote `random_gen.py` for my own use, but included it since it can produce interesing results. The `random_gen.py` script is run in the makefile, but I also included 5 other examples since the random one is often not very interesting.
+When I finished writing the program, I had used one test case for all of my work, and then didn't know how to make interesting examples, so I wrote [random_gen.py](random_gen.py) for my own use, but included it since it can produce interesing results. The [random_gen.py](random_gen.py) script is run in the makefile, but I also included 5 other examples since the random one is often not very interesting.
 ## Examples
 ![Image 1](image1.jpg)
 ![Image 2](image2.jpg)
